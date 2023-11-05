@@ -31,5 +31,6 @@ Este projeto foi realizado no 1° semestro do curso [Sistemas para Internet](htt
 - Integrar, de forma prática, os conceitos e competências das demais disciplinas do primeiro semestre.
 
 ## 🔍Documentação
-- [Life For Live.pdf](https://github.com/VittorPatricio/Life-For-Live/files/13196203/Life.For.Live.pdf)
+- [Life For Live.pdf](https://github.com/VittorPatricio/Life-For-Live/files/13260950/Life.For.Live.pdf)
+
 
