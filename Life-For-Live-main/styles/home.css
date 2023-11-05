@@ -1,0 +1,92 @@
+.container {
+  background-color: #fff;
+  padding: 18px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.title span,
+.text span,
+.gradient {
+  background-image: linear-gradient(
+      -225deg,
+          #FD51E3 0%,
+          #6F51FA 29%,
+          #FD51E3 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+}
+
+.heart img {
+  float: right;
+  width: 400px;
+  margin-top: 150px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.description {
+  width: 650px;
+  font-weight: 400;
+  margin: 15px 0px 30px 0px;
+}
+
+ .btn-gradient {
+  background: linear-gradient(96.49deg, #6F51FA -16.95%, #FD51E3 126.18%);
+  border-radius: 8px;
+  border: none;
+  width: 10vw;
+  height: 5vh;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.buttons .plans {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid var(--borders--);
+  width: 10vw;
+  height: 5vh;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 0.6s ease;
+}
+
+.btn-gradient:hover,
+.plans:hover {
+  transform: translateY(-5%);
+}
+
+
+.content {
+  margin-top: 20%;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translatey(0);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+}

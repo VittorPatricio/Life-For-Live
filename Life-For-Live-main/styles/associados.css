@@ -1,0 +1,52 @@
+.parceiros {
+  background-color: #fff;
+  width: 100%;
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.parceiros h1 {
+  font-size: 2.5rem;
+}
+
+.parceiros p {
+  font-size: 1rem;
+}
+
+.slider {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  margin: 110px 0px;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  animation: scroll;
+  -webkit-animation: scroll 50s linear infinite;
+  width: calc(200px * 14);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-200px * 7));
+  }
+}
