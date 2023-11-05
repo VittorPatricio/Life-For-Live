@@ -1,0 +1,26 @@
+.button-fixed {
+    position: fixed;
+    z-index: 999;
+    background-image: var(--gradient--);
+    border-radius: 10px;
+    right:  1%;
+    bottom: 3%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+
+  .button-fixed:hover {
+    transform: translateY(-5%);
+  }
+  
+  .button-fixed i {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }

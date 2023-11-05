@@ -1,0 +1,90 @@
+
+
+.title-inst {
+  text-align: center;
+}
+
+.title-inst h1 {
+  font-size: 2.5rem;
+}
+
+.title-inst p {
+  font-size: 1.5rem;
+}
+.card-inst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 120px;
+}
+
+.cards-inst {
+    position: relative;
+    width: 450px;
+    height: 520px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.cards-inst:hover {
+  transform: translateY(-2%);
+}
+
+.moradia  {
+  background-image: url("../assets/imgs/moradia.svg");
+}
+
+.educacao {
+  background-image: url("../assets/imgs/Educação.svg");
+}
+
+.meio-ambiente {
+  background-image: url("../assets/imgs/meio-ambiente.svg")
+}
+
+.pobreza {
+  background-image: url("../assets/imgs/pobreza.svg");
+}
+
+.saneamento {
+  background-image: url("../assets/imgs/saneamento.svg");
+}
+
+.fome {
+  background-image: url("../assets/imgs/fome.svg");
+}
+
+.title-card-inst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 160px;
+  height: 45px;
+  position: absolute;
+  border-radius: 10px;
+  left:  12%;
+  top: 60%;
+  background-color: #fff;
+}
+
+.text-card-inst {
+  font-size: 1.2rem;
+  color: #fff;
+  position: relative;
+  left:  12%;
+  top: 75%;
+}
+
+.more {
+  text-align: center;
+}
+ 
+.btn-gradient i {
+  padding-bottom: 110px;
+}
